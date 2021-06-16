@@ -36,13 +36,17 @@ Zanima nas, ali je določen id uid že zaseden. Skripta naj na standardni izhod 
   
 Navodila
 Podnaloga (a)
+  
 Vombat Vinko ima po disku raztresene podatke o zeliščih. V datoteke si je beležil imena zelišč in koliko gramov ga ima (primer: … bla bla koriander 12g bla bla … drobljena paprika 42g ...) Zaradi raztresenosti je svoje začimbe skrajno neurejeno beležil v datoteke (to pomeni, da se lahko pojavijo večkrat v datoteki) in da bi bila težava še večja si zaradi debelih tačk težko spiše program, ki bi mu rešil ta problem. Imenu zelišča vedno sledi presledek in nato celoštevilka količina v gramih, ki ji lahko sledi "g" oz. " g" ali pa tudi ne. Lahko predvidevate, da bo količina sledila imenu začimbe vedno v isti vrsti. Na srečo uporablja GNU/Linux in mu boš z lahkoto lahko pomagal s programom, ki ob podanem imenu datoteke in seznamom zelišč poišče vse pojavitve, sešteje količine in to v abecednem vrstnem redu izpiše v terminal. Med imenom zelišča in mase naj bo pri izpisu presledek. Pozor, ker je Vinkov disk v takšnem stanju kot je, je vsakršno pisanje na disk prepovedano!
   
 Podnaloga (b)
+  
 Jazbec Venčeslav ima velike glavobole zaradi dejstva, ker ne ve, če so programi, ki jih rad poganja, vgrajeni v Bash lupino ali ne, saj potem pogosto bere napačna navodila, kot je to opazil pri nekaterih študentih OSa. Podobno kot Vinko težko tipka in nima časa za ročno poganjanje ukaza type -a za vsak program. Pomagal mu boš z interaktivnim programom, ki sprejema imena procesov (program vsakič vpraša "Vnesite ime procesa: ", kjer sledi poziv v isti vrstici) in po pritisku na Enter izpiše VGRAJEN, “nevgrajen” ali “ObOjE” glede na vgrajenost procesa v lupino. Pazite na velike in male črke pri izpisu. Če vnesemo ukaz, ki ne obstaja, ne izpišete ničesar. Pozor, Venčeslav ima zelo majhen disk zato je vsakršno pisanje na disk prepovedano!
   
 Podnaloga (c)
+  
 Rakunka Vekoslava je na Venčeslavovem računalniku opazila neko sumljivo skripto, ki izpisuje vgrajenost/nevgrajenost ukazov v terminal. Skripta se ji zdi strašno neuporabna, sploh se ji zdi interaktivnost skrajno zoprna, zanima pa jo kako so se procesi pognali. Zato ji napiši skripto, ki za vse procese, ki tečejo na sistemu, v vrstnem redu glede na PID izpiše PID in argumente s katerimi je bil proces pognan (tipično sicer procesi ob poganjanju niti nimajo argumentov, kot je tudi vidno na primeru spodaj). Stolpca, kot tudi posamezni argumenti naj bodo ločeni s presledkom. Pozor, Vekoslava ima nekaj računalniške podlage in ve, da se za takšne preproste programe ne spodobi pisati na disk, zato je vsakršno pisanje na disk prepovedano!
   
 Podnaloga (d)
+  
 Rosomah Vincencij kupuje darilo za svoje prijatelje Vinka, Vekoslavo in Venčeslava. Težava je, ker mu brskalnik dela zelo počasi. Jasno je, da zaradi kupa zavihkov odprtih v načinu brez beleženja zgodovine, vendar mu teh ne smemo zapreti. Spiši program, ki poišče 3 procese, ki v danem trenutku zasedajo največji procent CPEja. Ker bo med njimi gotovo brskalnik jih ne smeš zapreti, ampak jih le izpiši skupaj z odstotkom zasedenosti CPEja in delovnega spomina, s podatki ločenimi s presledkom, vsak proces pa v novi vrsti. Sortirani naj bodo po porabi CPEja in potem po abecedi, več procesov ima lahko namreč enak odstotek zasedenosti CPE (--sort pri ps-ju zadošča - velike črke bodo pred malimi, kar je OK). Pozor, Vincencij je zelo občutljiv kaj ima na disku, saj je enkrat že imel težave s policijo, zato je vsakršno pisanje na disk prepovedano!
