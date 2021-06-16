@@ -35,6 +35,7 @@ DN1e.sh uid
 Zanima nas, ali je določen id uid že zaseden. Skripta naj na standardni izhod izpiše niz prosto!, če je id prost. V nasprotnem primeru skripta na standardni izhod izpiše podatke uporabnika s podanim uid. V vsakem primeru na koncu napišite tudi, ali je podan uid v območju rezerviranih številk, bodisi za uporabnika root, sistemske ali druge predefinirane uporabnike.
   
 Navodila
+  
 Podnaloga (a)
   
 Vombat Vinko ima po disku raztresene podatke o zeliščih. V datoteke si je beležil imena zelišč in koliko gramov ga ima (primer: … bla bla koriander 12g bla bla … drobljena paprika 42g ...) Zaradi raztresenosti je svoje začimbe skrajno neurejeno beležil v datoteke (to pomeni, da se lahko pojavijo večkrat v datoteki) in da bi bila težava še večja si zaradi debelih tačk težko spiše program, ki bi mu rešil ta problem. Imenu zelišča vedno sledi presledek in nato celoštevilka količina v gramih, ki ji lahko sledi "g" oz. " g" ali pa tudi ne. Lahko predvidevate, da bo količina sledila imenu začimbe vedno v isti vrsti. Na srečo uporablja GNU/Linux in mu boš z lahkoto lahko pomagal s programom, ki ob podanem imenu datoteke in seznamom zelišč poišče vse pojavitve, sešteje količine in to v abecednem vrstnem redu izpiše v terminal. Med imenom zelišča in mase naj bo pri izpisu presledek. Pozor, ker je Vinkov disk v takšnem stanju kot je, je vsakršno pisanje na disk prepovedano!
